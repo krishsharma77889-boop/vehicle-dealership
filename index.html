@@ -1,0 +1,23 @@
+<!-- Filter Modal -->
+<div id="filter-modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close-modal" class="close-btn">&times;</span>
+    <h3>Filter Vehicles</h3>
+    
+    <label for="vehicle-type">Type:</label>
+    <select id="vehicle-type">
+      <option value="all">All</option>
+      <option value="car">Car</option>
+      <option value="bike">Bike</option>
+    </select>
+
+    <div id="category-wrapper" class="hidden">
+      <label for="vehicle-category">Category:</label>
+      <select id="vehicle-category">
+        <!-- Dynamically populated via JS -->
+      </select>
+    </div>
+
+    <button id="apply-filters" class="cta-btn">Apply Filters</button>
+  </div>
+</div>
